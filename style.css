@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    margin-left: 20px;
+}
+
+header {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.premiere {
+    border: 2px  solid rgb(38, 38, 212);
+}
+
+.film{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+hr {
+    border: 3px solid rgb(38, 38, 212);  
+}
+
+img {
+    width: 200px
+}
+
+.text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+
+.text a {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(12, 12, 167);
+    
+}   
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.actors, .director{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.options a, .actors a, .director a {
+    color: rgb(38, 38, 212); 
+    font-size: 14px;
+}
+
+.info p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#poolmanOptions{
+    max-width: 170px;
+}
